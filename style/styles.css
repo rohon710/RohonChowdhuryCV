@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;1,200&display=swap');
+
+body{
+    font-family: 'Work Sans', sans-serif;
+}
+
+:root {
+   
+   --red:rgb(255, 46, 99);
+    --cyan:rgb(8, 217, 214);
+    --white:rgb(234, 234, 234);
+}
+hr{
+    margin: 1.5rem 0rem;
+}
+/* Containers */
+
+.container{
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+.center-container{
+    max-width: 500px;
+    margin: auto;
+}
+
+/* links */
+
+.link{
+    padding:0.5rem 1rem;
+    text-decoration: none;
+   
+}
+.primary-link{
+    background-color: var(--red);
+    color:white;
+    border-radius: 0.75rem;
+}
+.secondary-link{
+    color:var(--red);
+    border: 1px solid;    
+    border-radius: 0.75rem;
+}
+
+
+.primary-link:hover {
+    color:var(--red);
+    background-color: white;
+    border: 1px solid;
+}
+
+/* No Bullets */
+.no-bullets {
+    list-style: none;
+}
+.list-inline-item{
+    display: inline;
+    
+}
+
+/* nagivation bar */
+
+.navigation{
+    background-color: var(--red);
+    padding:1rem 1rem;
+    border-bottom-left-radius: 1rem;
+    margin:0rem;
+}
+.navigation div{
+    color:white;
+}
+.nav-buttons {
+    text-align: right;
+}
+.navigation .list-inline-item .link {
+    color:white;  
+}    
+/* image */
+header{
+    text-align: center;
+    padding: 1.5rem 0rem;
+}
+
+/* SECTIONS */
+
+section h3{      
+    text-align: center;
+    padding: 1em 0rem;
+}
+
+.off-white {
+    background-color: var(--white);
+}
+section .center-container {
+    padding-bottom: 1rem;
+    text-align:center;
+}
+
+/* Footer */
+
+footer{
+    background-color: var(--red) ;
+    border-top-right-radius: 1rem;
+    color:white;
+    margin: 1rem 0rem 0rem 0rem;
+    padding:2rem 0rem 2rem 0rem;
+    text-align: center;
+    
+}
+footer .link {
+    color:white;
+}
