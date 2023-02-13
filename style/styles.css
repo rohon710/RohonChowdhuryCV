@@ -1,8 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,300;0,400;1,200&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,300;0,400;0,500;1,400&display=swap');
+    /* font-family: 'Work Sans', sans-serif; */
+    body{
+    font-family: 'Poppins', sans-serif;
+    max-width: 95%;
+      margin:0rem auto;
 
-body{
-    font-family: 'Work Sans', sans-serif;
-   
 }
 
 :root {
@@ -38,12 +41,12 @@ hr{
 .primary-link{
     background-color: var(--red);
     color:white;
-    border-radius: 0.75rem;
+    border-radius: 1rem;
 }
 .secondary-link{
     color:var(--red);
     border: 1px solid;    
-    border-radius: 0.75rem;
+    border-radius: 1rem;
 }
 
 
@@ -79,7 +82,7 @@ hr{
 .navigation .list-inline-item .link {
     color:white;  
 }    
-/* image */
+/* heading image */
 .coder{
     text-align: center;
     padding: 1.5rem 0rem;
@@ -89,11 +92,16 @@ hr{
     margin:auto;
     max-width: 70%;
 }
+.heading-ending{
+    color:var(--red);
+}
 /* SECTIONS */
-
-section h3{      
+section{
+    border-radius: 1rem;
+}
+section .heading-section{      
     text-align: center;
-    padding: 1em 0rem;
+    padding-top: 1rem;
 }
 
 .off-white {
@@ -117,4 +125,20 @@ footer{
 }
 footer .link {
     color:white;
+}
+
+/* projects extra design */
+.list-projects {
+    text-align: center;
+    padding:1rem 2rem 2rem 2rem;
+    border-radius: 1.5rem;
+    margin:3rem auto;
+    max-width: 900px;
+}
+.no-bullets{
+    padding:0rem;
+}
+.list-projects .heading-section{
+    padding:0rem;
+    margin: 0.5rem 0rem;
 }
