@@ -28,7 +28,7 @@ hr{
 }
 .center-container{
     max-width: 500px;
-    margin: auto;
+    margin: 2rem auto;
 }
 
 /* links */
@@ -55,7 +55,9 @@ hr{
     background-color: white;
     border: 1px solid;
 }
-
+.secondary-link:hover{
+    color:black;
+}
 /* No Bullets */
 .no-bullets {
     list-style: none;
@@ -125,6 +127,10 @@ footer{
 }
 footer .link {
     color:white;
+}
+
+.footer-link:hover{
+    color:black;
 }
 
 /* projects extra design */
